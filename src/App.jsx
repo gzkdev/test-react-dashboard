@@ -17,7 +17,7 @@ function App() {
   }
   return (
     <>
-      <Sidebar toggleMenu={toggleMenu} dataToggle={openMenu}></Sidebar>
+      <Sidebar dataToggle={openMenu}></Sidebar>
       <Header toggleMenu={toggleMenu}></Header>
       <div className="ctn">
         <div className="app-heading">
