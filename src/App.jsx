@@ -7,7 +7,7 @@ import ExtraservicesSection from "./components/ExtraservicesSection";
 import { useState } from "react";
 import Sidebar from "./components/Sidebar";
 function App() {
-  const [openMenu, setOpenMenu] = useState("open");
+  const [openMenu, setOpenMenu] = useState("");
   function toggleMenu() {
     if (!(openMenu === "open")) {
       setOpenMenu("open");
