@@ -5,7 +5,10 @@ function DetailsSection() {
     <section className="details">
       <div className="details-header">
         <h3>Cargo details</h3>
-        <ToggleSwitch></ToggleSwitch>
+        <div className="toggle-ctn">
+          <ToggleSwitch></ToggleSwitch>&nbsp;&nbsp;Dangerous Cargo (ex.
+          Chemicals, Battery)
+        </div>
       </div>
       <div className="package-type-box">
         <button>Total Dimensions</button>
